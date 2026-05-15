@@ -22,7 +22,7 @@ author: Local
 ## 规则知识库 (Rules)
 规则独立于执行流程，确保修改标准不影响主程序稳定性：
 - `rules/minutes-rules.md`：纪要提炼的底线约束、证据契约、会议类型判定标准与行文规范。
-- `rules/minutes-template.md`：统一输出大纲（7个章节定义），按会议类型过滤后出稿≤5章，合并重复表述。
+- `rules/minutes-template.md`：统一输出大纲，按会议类型过滤后出稿≤5章，合并重复表述。
 
 ## 路由策略 (强制)
 - **音频** (`.wav/.m4a/.mp3/.flac/.aac`)：调用本地 Whisper 转写后分析。

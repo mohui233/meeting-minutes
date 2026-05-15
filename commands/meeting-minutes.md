@@ -12,7 +12,7 @@ argument-hint: "<录音或文本路径>"
 | `Rule_Root` | 规则预加载路径，优先读取 `rules/minutes-rules.md` 和 `rules/minutes-template.md` |
 | `LongDoc_Mode` | 文档超过 35k tokens（约 2 万中文字符）时启用 |
 | `Meeting_Type` | `cross_dept`：跨部门/外部对接会；`internal`：内部工作会/任务分工会 |
-| `Template_Chapters` | 从模板加载的章节清单（7 个定义章节） |
+| `Template_Chapters` | 从模板加载的章节清单 |
 
 ## 2. 执行顺序
 
