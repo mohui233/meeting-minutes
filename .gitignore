@@ -1,91 +1,13 @@
-# 忽略匹配下列规则的Git 提交 V2.1.0
-### gradle ###
-.gradle
-!gradle/wrapper/gradle-wrapper.jar
-
-### STS ###
-.settings/
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-*.lock
-rebel.xml
-
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-nbdist/
-.nb-gradle/
-
-### maven ###
-target/
-*.war
-*.ear
-*.zip
-*.tar
-*.tar.gz
-
-### logs ####
-/logs/
-*.log
-
-### docker ####
-/docker/jar/
-
-### temp ignore ###
-*.cache
-*.diff
-*.patch
-*.tmp
-*.java~
-*.properties~
-*.xml~
-
-### system ignore ###
+### system ###
 .DS_Store
 Thumbs.db
-Servers
-.metadata
-upload
-gen_code
+
+### editor ###
+.idea/
+.vscode/
+*.swp
+*.swo
 
 ### env ###
 .env
-**/.env
 .env.*
-
-### node ###
-node_modules
-/.vscode/
-/.mem0_db_test/collection/mem0/storage.sqlite
-/.mem0_db_test/meta.json
-/.mem0_runtime_test/qdrant/collection/mem0/storage.sqlite
-/.mem0_runtime_test/qdrant/meta.json
-/.mem0_runtime_test/config.json
-/.mem0_runtime_test/history.db
-/.ollama_models/blobs/sha256-0c4c9c2a325fb1cdafec606e6809cb745f1cb26a6d919994400d27372303e276
-/.ollama_models/blobs/sha256-2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730
-/.ollama_models/blobs/sha256-2f15b3218f0552c60647ce60ada83632d2c09755b16259b13e3e4458e9ae419d
-/.ollama_models/blobs/sha256-66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e
-/.ollama_models/blobs/sha256-832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e
-/.ollama_models/blobs/sha256-a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde
-/.ollama_models/blobs/sha256-daec91ffb5dd0c27411bd71f29932917c49cf529a641d0168496c3a501e3062c
-/.ollama_models/blobs/sha256-eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175
-/.ollama_models/manifests/registry.ollama.ai/library/bge-m3/latest
-/.ollama_models/manifests/registry.ollama.ai/library/qwen2.5/7b-instruct
-*.pyc
-__pycache__/
-*.py[cod]
-*$py.class
-
